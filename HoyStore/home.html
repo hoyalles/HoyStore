@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoyStore</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    
+    <header>
+        <h1>HoyStore - Loja de Hardware</h1>
+
+        <div class="icones">
+            <img src="img/icones/carrinho.png" alt="Carrinho"
+                onclick="location.href='scripts/carrinho.html'">
+
+            <img src="img/icones/usuario.webp" alt="Cadastro" 
+                 onclick="location.href='scripts/cadastro.html'"> 
+        </div>
+    </header>
+
+    <!-- Categorias -->
+    <div class="categorias">
+        <h2>Categorias</h2>
+
+        <div class="grid-categorias">
+
+            <div class="card" onclick="location.href='categoria-processador.html'">
+                <img src="img/categorias/cpu.jpeg" alt="Processadores">
+                <h3>Processadores</h3>
+            </div>
+
+            <div class="card" onclick="location.href='categoria-placa-video.html'">
+                <img src="img/categorias/gpu.jpg" alt="Placas de Vídeo">
+                <h3>Placas de Vídeo</h3>
+            </div>
+
+            <div class="card" onclick="location.href='categoria-ram.html'">
+                <img src="img/categorias/ram.jpg" alt="Memórias RAM">
+                <h3>Memórias RAM</h3>
+            </div>
+
+            <div class="card" onclick="location.href='categoria-ssd.html'">
+                <img src="img/categorias/ssd.webp" alt="Armazenamento SSD">
+                <h3>SSD / Armazenamento</h3>
+            </div>
+
+            <div class="card" onclick="location.href='categoria-fonte.html'">
+                <img src="img/categorias/fonte.png" alt="Fontes de Energia">
+                <h3>Fontes</h3>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Produtos mais vendidos -->
+    <div class="mais-vendidos">
+        <h2>Top 5 Produtos Mais Comprados</h2>
+
+        <div class="grid-produtos">
+
+            <div class="card-produto">
+                <img src="img/produtos/processadores/I7.webp" alt="Intel i7">
+                <p>Intel Core i7 12700K</p>
+            </div>
+
+            <div class="card-produto">
+                <img src="img/produtos/placas-video/rtx3060.jpeg" alt="RTX 3060">
+                <p>RTX 3060</p>
+            </div>
+
+            <div class="card-produto">
+                <img src="img/produtos/ssd/ssd-1tb.webp" alt="SSD 1TB">
+                <p>SSD NVMe 1TB</p>
+            </div>
+
+            <div class="card-produto">
+                <img src="img/produtos/ram/ram-16gb.jpg" alt="RAM 16GB">
+                <p>Memória RAM 16GB DDR4</p>
+            </div>
+
+            <div class="card-produto">
+                <img src="img/produtos/fontes/fonte-650w.webp" alt="Fonte 650W">
+                <p>Fonte 650W 80 Plus</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>HoyStore © 2025 - Prática de ProgramaçãoWeb</p>
+    </footer>
+
+</body>
+</html>

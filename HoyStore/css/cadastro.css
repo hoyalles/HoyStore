@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f8ff;
+    color: #1a1a1a;
+}
+
+header {
+    width: 100%;
+    background: #0a4fff;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    margin-bottom: 30px;
+}
+
+ /* Formulario */
+
+.cadastro-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form {
+    width: 420px;
+    background: #e3e2e2;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+form h1 {
+    text-align: center;
+    color: #0a4fff;
+    margin-bottom: 15px;
+}
+
+
+
+.campo label {
+    display:flexbox;
+    font-size: 16px;
+    font-weight: 500;
+    color: #0a4fff;
+    
+
+}
+
+.campo input {
+    width: 100%;
+    padding: 4px;
+    border-radius: 10px;
+    border-color: #0a4fff;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+
+.campo select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #0a4fff;
+    background-color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/* Botões */
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.botoes button {
+    width: 48%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button[type="submit"] {
+    background: #0a4fff;
+    color: white;
+}
+
+button[type="reset"] {
+    background: #8a8a8a;
+    color: white;
+}
